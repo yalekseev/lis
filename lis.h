@@ -8,7 +8,7 @@ namespace util {
 
 /* O(nlogn) solution */
 template <typename Iterator>
-int lis_length(Iterator begin, Iterator end) {
+int longest_increasing_subsequence(Iterator begin, Iterator end) {
     if (begin == end) {
         return 0;
     }
